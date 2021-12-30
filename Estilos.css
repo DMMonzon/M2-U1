@@ -1,0 +1,150 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin: 0 auto 30px;
+  background-color: rgb(104, 142, 247);
+  background-image: radial-gradient(
+      white,
+      rgba(255, 255, 255, 0.2) 2px,
+      transparent 40px
+    ),
+    radial-gradient(white, rgba(185, 51, 51, 0.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(183, 219, 21, 0.1) 2px, transparent 40px),
+    radial-gradient(
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.1) 2px,
+      transparent 30px
+    );
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+header {
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  background: #45484d;
+  background: -moz-linear-gradient(-45deg, #45484d 0%, #000000 100%);
+  background: -webkit-linear-gradient(-45deg, #45484d 0%, #000000 100%);
+  background: linear-gradient(135deg, #45484d 0%, #000000 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 );
+
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+footer {
+  font-family: "Poppins", sans-serif;
+  color: yellow;
+  font-size: 14px;
+  height: 30px;
+  width: 100%;
+  line-height: 30px;
+  text-align: center;
+  background: #000000;
+  background: -moz-linear-gradient(-45deg, #000000 0%, #45484d 100%);
+  background: -webkit-linear-gradient(-45deg, #000000 0%, #45484d 100%);
+  background: linear-gradient(135deg, #000000 0%, #45484d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#45484d',GradientType=1 );
+  position: absolute;
+  bottom: 0px;
+}
+i {
+  margin: 7px;
+  transition: 0.5s all;
+  display: inline-block;
+}
+i:hover {
+  color: rgb(0, 255, 34);
+  transition: 0.5s all;
+}
+.icono {
+  width: 150px;
+  height: 150px;
+}
+h4 {
+  position: relative;
+  display: inline;
+  font-weight: lighter;
+  margin-right: 50px;
+}
+.contenido,
+.listas {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.rostro {
+  border-radius: 50%;
+  background-image: url(img/rapper.png);
+  width: 250px;
+  height: 250px;
+  margin-right: 25px;
+  box-shadow: 10px 10px 30px black;
+  position: relative;
+  display: inline-block;
+  transition: 0.5s all;
+}
+.rostro:hover {
+  border-radius: 25%;
+  transition: 0.5s all;
+}
+.leyenda {
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 70px;
+  color: white;
+  margin-left: 25px;
+  width: 400px;
+  height: 250px;
+  vertical-align: top;
+  text-shadow: 10px 10px 30px black;
+  position: relative;
+  display: inline-block;
+}
+.card {
+  gap: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(20px);
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+  width: 250px;
+  padding: 10px 20px 10px 0px;
+  margin: 0px 15px 30px 15px;
+  position: relative;
+  display: inline-block;
+}
+ul {
+  font-family: "Roboto", Geneva;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  color: hotpink;
+  text-shadow: 3px 3px 5px rgb(59, 59, 59);
+  transition: 0.5s all;
+}
+li {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-weight: lighter;
+  color: black;
+  text-shadow: none;
+  font-size: 16px;
+  margin-top: 5px;
+}
+p {
+  column-count: 3;
+  column-gap: 20px;
+  width: 80%;
+  margin: 20px auto;
+  text-align: left;
+  font-family: "Roboto", Geneva;
+  font-size: 16px;
+  color: white;
+  display: inline-block;
+  border:solid black;
+  padding: 20px;
+}
